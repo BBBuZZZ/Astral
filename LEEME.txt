@@ -1,0 +1,19 @@
+BuzAstral (PWA)
+================
+
+Archivos: index.html, manifest.json, service-worker.js y 3 iconos. Súbelos TODOS, en la raíz del repositorio.
+
+SUBIR A GITHUB PAGES
+1. En github.com crea un repositorio nuevo (por ejemplo "buzastral"), público.
+2. "Add file" > "Upload files": arrastra los 6 archivos (no la carpeta) y pulsa "Commit changes".
+3. Settings > Pages > Source: "Deploy from a branch" > rama "main" y carpeta "/ (root)" > Save.
+4. Espera 1 o 2 minutos. Tu app estará en https://TU-USUARIO.github.io/buzastral/
+
+ABRIR EN EL MÓVIL
+- Android (Chrome): abre la dirección y pulsa "Instalar app" (botón de la cabecera) o menú ⋮ > "Instalar aplicación".
+- iPhone (Safari): abre la dirección, pulsa Compartir > "Añadir a pantalla de inicio". (Debe ser Safari.)
+
+NOTAS
+- Los perfiles guardados viven en el propio móvil. Cada dispositivo tiene los suyos; usa Perfiles > Exportar JSON para hacer copias o pasarlos a otro dispositivo.
+- Tras abrirla una vez con conexión, la app funciona sin conexión. El informe PDF necesita conexión la primera vez (descarga su librería).
+- Para actualizar la app: sube de nuevo index.html al repositorio. El móvil recibe la versión nueva al abrirla con conexión (si no se ve, ciérrala y ábrela otra vez).
